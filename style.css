@@ -1,0 +1,34 @@
+body{
+    background: aqua;
+}
+
+#clock{
+    position: relative;
+}
+
+#dial{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    transform-origin: center bottom;
+}
+
+#hor{
+    position: absolute;
+    top: 126px;
+    left: 225px;
+    transform-origin: center bottom;
+}
+
+#min{
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    transform-origin: center bottom;
+}
+
+#dot{
+    position: absolute;
+    top: 236px;
+    left: 235px;
+}
